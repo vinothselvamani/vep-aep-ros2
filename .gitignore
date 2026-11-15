@@ -1,0 +1,11 @@
+ws/build/
+ws/install/
+ws/log/
+data/
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+*.tar.gz

@@ -1,0 +1,43 @@
+[INFO] [launch]: All log files can be found below /home/vinoth/.ros/log/2026-11-15-11-37-25-732510-vinoth-System-Product-Name-14558
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [eeg_streamer-1]: process started with pid [14565]
+[INFO] [erp_preprocessor-2]: process started with pid [14566]
+[INFO] [erp_detector-3]: process started with pid [14567]
+[INFO] [erp_evaluator-4]: process started with pid [14568]
+[eeg_streamer-1] [INFO] [1794722846.391948674] [eeg_streamer]: streaming 59 ch @ 150.15 Hz, chunk=6 samples, speed x1.0
+[erp_evaluator-4] [INFO] [1794722859.144100928] [erp_evaluator]: 10 decisions, acc=1.000, last latency=501.1 ms
+[erp_evaluator-4] [INFO] [1794722866.716375896] [erp_evaluator]: 20 decisions, acc=1.000, last latency=528.5 ms
+[erp_evaluator-4] [INFO] [1794722873.669223288] [erp_evaluator]: 30 decisions, acc=1.000, last latency=488.5 ms
+[erp_evaluator-4] [INFO] [1794722881.550871269] [erp_evaluator]: 40 decisions, acc=1.000, last latency=535.7 ms
+[erp_evaluator-4] [INFO] [1794722888.185148765] [erp_evaluator]: 50 decisions, acc=1.000, last latency=529.1 ms
+[erp_evaluator-4] [INFO] [1794722895.497980552] [erp_evaluator]: 60 decisions, acc=1.000, last latency=530.3 ms
+[erp_evaluator-4] [INFO] [1794722902.329489705] [erp_evaluator]: 70 decisions, acc=1.000, last latency=502.4 ms
+[erp_evaluator-4] [INFO] [1794722910.112363078] [erp_evaluator]: 80 decisions, acc=1.000, last latency=514.0 ms
+[erp_evaluator-4] [INFO] [1794722917.184748754] [erp_evaluator]: 90 decisions, acc=1.000, last latency=501.9 ms
+[erp_evaluator-4] [INFO] [1794722924.856775888] [erp_evaluator]: 100 decisions, acc=1.000, last latency=528.2 ms
+[erp_evaluator-4] [INFO] [1794722932.499766955] [erp_evaluator]: 110 decisions, acc=1.000, last latency=515.8 ms
+[erp_evaluator-4] [INFO] [1794722939.328001036] [erp_evaluator]: 120 decisions, acc=1.000, last latency=532.8 ms
+[erp_evaluator-4] [INFO] [1794722946.234677078] [erp_evaluator]: 130 decisions, acc=1.000, last latency=501.4 ms
+[erp_evaluator-4] [INFO] [1794722953.912900957] [erp_evaluator]: 140 decisions, acc=1.000, last latency=507.2 ms
+[erp_evaluator-4] [INFO] [1794722961.709466918] [erp_evaluator]: 150 decisions, acc=1.000, last latency=516.6 ms
+[erp_evaluator-4] [INFO] [1794722969.101093391] [erp_evaluator]: 160 decisions, acc=0.994, last latency=529.1 ms
+[erp_evaluator-4] [INFO] [1794722976.723478809] [erp_evaluator]: 170 decisions, acc=0.994, last latency=514.5 ms
+[erp_evaluator-4] [INFO] [1794722983.925756283] [erp_evaluator]: 180 decisions, acc=0.994, last latency=502.3 ms
+[erp_evaluator-4] [INFO] [1794722991.228727704] [erp_evaluator]: 190 decisions, acc=0.995, last latency=508.0 ms
+[erp_evaluator-4] [INFO] [1794722998.151371510] [erp_evaluator]: 200 decisions, acc=0.985, last latency=509.2 ms
+[erp_evaluator-4] [INFO] [1794723005.696294874] [erp_evaluator]: 210 decisions, acc=0.986, last latency=503.3 ms
+[erp_evaluator-4] [INFO] [1794723012.776500300] [erp_evaluator]: 220 decisions, acc=0.986, last latency=535.9 ms
+[erp_evaluator-4] [INFO] [1794723020.368665417] [erp_evaluator]: 230 decisions, acc=0.987, last latency=502.3 ms
+[erp_evaluator-4] [INFO] [1794723027.113419440] [erp_evaluator]: 240 decisions, acc=0.988, last latency=509.0 ms
+[erp_evaluator-4] [INFO] [1794723034.753783391] [erp_evaluator]: 250 decisions, acc=0.988, last latency=529.1 ms
+[erp_evaluator-4] [INFO] [1794723042.107135568] [erp_evaluator]: 260 decisions, acc=0.988, last latency=510.5 ms
+[erp_evaluator-4] [INFO] [1794723050.408305851] [erp_evaluator]: 270 decisions, acc=0.989, last latency=515.4 ms
+[erp_evaluator-4] [INFO] [1794723057.600643453] [erp_evaluator]: 280 decisions, acc=0.989, last latency=501.9 ms
+[eeg_streamer-1] [INFO] [1794723126.567258086] [eeg_streamer]: end of recording
+[INFO] [eeg_streamer-1]: process has finished cleanly [pid 14565]
+[INFO] [erp_evaluator-4]: sending signal 'SIGINT' to process[erp_evaluator-4]
+[INFO] [erp_detector-3]: sending signal 'SIGINT' to process[erp_detector-3]
+[INFO] [erp_preprocessor-2]: sending signal 'SIGINT' to process[erp_preprocessor-2]
+[INFO] [erp_evaluator-4]: process has finished cleanly [pid 14568]
+[INFO] [erp_detector-3]: process has finished cleanly [pid 14567]
+[INFO] [erp_preprocessor-2]: process has finished cleanly [pid 14566]

@@ -1,0 +1,27 @@
+average rate: 50.003
+	min: 0.018s max: 0.022s std dev: 0.00051s window: 49
+average rate: 50.028
+	min: 0.018s max: 0.022s std dev: 0.00040s window: 99
+average rate: 50.050
+	min: 0.018s max: 0.021s std dev: 0.00026s window: 100
+average rate: 50.051
+	min: 0.018s max: 0.021s std dev: 0.00020s window: 100
+average rate: 50.052
+	min: 0.019s max: 0.022s std dev: 0.00025s window: 100
+average rate: 50.050
+	min: 0.018s max: 0.022s std dev: 0.00034s window: 100
+average rate: 50.051
+	min: 0.018s max: 0.022s std dev: 0.00037s window: 100
+average rate: 50.051
+	min: 0.019s max: 0.021s std dev: 0.00032s window: 100
+average rate: 50.051
+	min: 0.018s max: 0.021s std dev: 0.00032s window: 100
+average rate: 50.052
+	min: 0.018s max: 0.021s std dev: 0.00032s window: 100
+average rate: 50.052
+	min: 0.019s max: 0.021s std dev: 0.00023s window: 100
+average rate: 50.049
+	min: 0.019s max: 0.022s std dev: 0.00039s window: 100
+average rate: 50.052
+	min: 0.019s max: 0.022s std dev: 0.00036s window: 100
+failed to initialize wait set: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/wait.c:110

@@ -1,0 +1,58 @@
+{
+ "chunk_samples": 3,
+ "epoch_samples": 90,
+ "loss": {
+  "0.005": {
+   "decisions": 249,
+   "markers": 288,
+   "survival": 0.8645833333333334,
+   "expected_survival": 0.8560822709551226,
+   "agree_offline_heldout": 1.0,
+   "n_heldout": 130,
+   "gaps": 72
+  },
+  "0.01": {
+   "decisions": 219,
+   "markers": 288,
+   "survival": 0.7604166666666666,
+   "expected_survival": 0.7323033696543975,
+   "agree_offline_heldout": 1.0,
+   "n_heldout": 114,
+   "gaps": 139
+  },
+  "0.02": {
+   "decisions": 159,
+   "markers": 288,
+   "survival": 0.5520833333333334,
+   "expected_survival": 0.5345746329947881,
+   "agree_offline_heldout": 1.0,
+   "n_heldout": 87,
+   "gaps": 275
+  },
+  "0.05": {
+   "decisions": 52,
+   "markers": 288,
+   "survival": 0.18055555555555555,
+   "expected_survival": 0.2039068257457904,
+   "agree_offline_heldout": 1.0,
+   "n_heldout": 33,
+   "gaps": 686
+  }
+ },
+ "single_process": {
+  "decisions": 288,
+  "excess_ms_mean": 13.247749712918502,
+  "excess_ms_sd": 6.050615576768187,
+  "excess_ms_p95": 22.695009888612947,
+  "proc_ms": 6.233138520858321,
+  "agree_offline_heldout": 1.0
+ },
+ "ros_ref": {
+  "decisions": 288,
+  "excess_ms_mean": 15.56797825805739,
+  "excess_ms_sd": 5.488330117393324,
+  "excess_ms_p95": 22.27098343861298,
+  "proc_ms": 6.617292302097314
+ },
+ "middleware_overhead_ms": 2.320228545138889
+}

@@ -1,0 +1,15 @@
+header:
+  stamp:
+    sec: 1794728864
+    nanosec: 794311391
+  frame_id: eeg
+onset_sample: 3227
+true_code: 1
+predicted: 1
+label: AEP-left
+score: 25.8745638756125
+onset_stamp:
+  sec: 1794728864
+  nanosec: 284891776
+classify_us: 7109.582000339287
+---

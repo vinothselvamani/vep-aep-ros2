@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{End-to-end timing of the ROS 2 pipeline (all nodes on one host). Excess latency is measured from acquisition of the last epoch sample to the published decision.}
+\label{tab:ros}
+\setlength{\tabcolsep}{2.5pt}
+\footnotesize
+\begin{tabular}{lccccccc}
+\toprule
+Task & Chunk & Speed & Dec./Mark. & Excess (ms) & p95 & Classif. & Agree \\
+ & (ms) & & & mean$\pm$SD & (ms) & (ms) & (\%) \\
+\midrule
+2-class & 10 & $\times$1 & 288/288 & 11.6$\pm$3.9 & 15.8 & 6.30 & 100 \\
+2-class & 20 & $\times$1 & 288/288 & 15.4$\pm$5.6 & 22.5 & 6.50 & 100 \\
+2-class & 40 & $\times$1 & 288/288 & 23.5$\pm$12.1 & 42.4 & 4.62 & 100 \\
+4-class & 20 & $\times$1 & 288/288 & 10.0$\pm$5.9 & 17.6 & 2.25 & 100 \\
+2-class & 20 & $\times$5 & 288/288 & 4.3$\pm$2.2 & 7.9 & 1.93 & 100 \\
+2-class & 20 & $\times$10 & 288/288 & 3.8$\pm$5.3 & 6.2 & 1.70 & 100 \\
+\bottomrule
+\end{tabular}
+\end{table}

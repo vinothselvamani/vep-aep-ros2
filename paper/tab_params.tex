@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{Pipeline parameters used in all experiments.}
+\label{tab:params}
+\footnotesize
+\begin{tabular}{ll}
+\toprule
+Parameter & Value \\
+\midrule
+Sampling rate & 150.15 Hz (59 EEG channels) \\
+Band-pass filter & Butterworth, order 4, 1--30 Hz, causal SOS \\
+Re-referencing & Common average (CAR) \\
+Epoch window & $-100$ to $500$ ms, pre-stimulus baseline \\
+Spatial filter & xDAWN, 3 filters/class (12 total, 4-class) \\
+Feature rate & Decimation $\times$4 ($\approx$37.5 Hz) \\
+Classifier & LDA, Ledoit--Wolf shrinkage \\
+Chunk length & 10 / 20 / 40 ms (default 20 ms) \\
+QoS & Reliable, keep-last, depth 200 \\
+\bottomrule
+\end{tabular}
+\end{table}

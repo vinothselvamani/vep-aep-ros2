@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Fault injection: filtered chunks dropped at random ($\times$5 playback). Expected survival assumes an epoch is lost if any of its 31 chunks is lost. Agreement: surviving held-out decisions identical to offline.}
+\label{tab:loss}
+\setlength{\tabcolsep}{3pt}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+Drop rate & Gaps & Decisions & Survival & Expected & Agreement \\
+\midrule
+0.5\,\% & 72 & 249/288 & 86.5\,\% & 85.6\,\% & 100\,\% (130) \\
+1.0\,\% & 139 & 219/288 & 76.0\,\% & 73.2\,\% & 100\,\% (114) \\
+2.0\,\% & 275 & 159/288 & 55.2\,\% & 53.5\,\% & 100\,\% (87) \\
+5.0\,\% & 686 & 52/288 & 18.1\,\% & 20.4\,\% & 100\,\% (33) \\
+\bottomrule
+\end{tabular}
+\end{table}

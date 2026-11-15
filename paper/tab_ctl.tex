@@ -1,0 +1,22 @@
+\begin{table}[t]
+\centering
+\caption{Control analyses (xDAWN-LDA, 10$\times$5-fold CV accuracy in \%). Off-cycle: the 16 trials that did not follow the fixed stimulus cycle.}
+\label{tab:ctl}
+\setlength{\tabcolsep}{3pt}
+\footnotesize
+\begin{tabular}{lcccc}
+\toprule
+Input & AEP/VEP & off-cycle & 4-class & Vis.\ L/R \\
+\midrule
+Chance & 50.3 & & 25.3 & 51.0 \\
+\midrule
+Pre-stimulus $-200$--$0$\,ms & 50.2 & 41.2 & 29.3 & -- \\
+Pre-stimulus $-100$--$0$\,ms & 50.6 & 53.1 & 25.1 & -- \\
+Early $0$--$50$\,ms & 50.8 & 46.9 & 27.2 & -- \\
+Standard $-100$--$500$\,ms & 98.2 & 99.4 & 83.9 & 97.6 \\
+EOG channel only & 59.7 & -- & 31.4 & 54.5 \\
+EEG, EOG regressed out & 98.3 & -- & 84.5 & 97.8 \\
+EEG, 20 frontal ch.\ removed & 97.6 & -- & 83.8 & 97.6 \\
+\bottomrule
+\end{tabular}
+\end{table}
